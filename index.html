@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+</head>
+<body>
+
+<h2>A Beautiful Sight for Sore Eyes</h2> 
+<p>My three favorite things in nature are butterflies, tulips, and the beach!</p>
+
+<div class="row">
+  <div class="column">
+    <img src="https://cdn.britannica.com/76/151376-050-13586FE2/monarch-butterfly-flowers-bush.jpg" alt="Butterfly" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="https://th.bing.com/th/id/OIP.UuZDkasMdG6oW9CN4Yn14AHaE5?w=259&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Tulips" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="https://th.bing.com/th/id/OIP.IAPCVWzsFKyFnhjHalqJuQHaEo?w=303&h=189&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Beach" style="width:100%">
+  </div>
+</div>
+
+</body>
+</html>
+
